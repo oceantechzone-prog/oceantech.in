@@ -1,0 +1,105 @@
+.story-hero {
+  /* background-image: url('../../Images/current/OLO2DI0.jpg'); */
+  /* background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1; */
+  /* height:90vh; */
+  background: #0A4ADC;
+background: linear-gradient(256deg, rgba(10, 74, 220, 1) 21%, rgba(24, 151, 235, 1) 65%, rgba(24, 151, 235, 1) 75%);
+}
+
+.story-heading {
+  font-size: 2rem;
+}
+
+.story-text {
+  font-size: 1rem;
+  font-weight: 500;
+  max-width: 500px;
+}
+
+.explore-btn {
+  border: 2px solid #fff !important;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #fff !important;
+  transition: all 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #124adb !important;
+  color: white !important;
+}
+
+.hero-bg-shape {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50% 50% 0 0;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+  background-color: #cde8ff;
+}
+
+.story-img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  /* max-width: 400px; */
+  /* clip-path: inset(0 3% 0 2% round 5% 20% 0 10%); */
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .story-heading {
+    font-size: 2rem;
+  }
+
+  .story-text {
+    font-size: 0.95rem;
+  }
+
+  .explore-btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .hero-bg-shape {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 576px) {
+  .story-heading {
+    font-size: 1.50rem;
+  }
+  .story-hero{
+    /* background-image: none; */
+  }
+  
+
+  .story-text {
+    font-size: 0.9rem;
+  }
+
+  .explore-btn {
+    font-size: 0.85rem;
+  }
+
+  .story-img {
+    width: 100%;
+  }
+  .explore-btn {
+  /* border: 2px solid #124adb !important; */
+  padding: 7px 14px !important;
+  border-radius: 30px;
+  /* color: #124adb !important; */
+  transition: all 0.3s ease;
+}
+}
