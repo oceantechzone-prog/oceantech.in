@@ -4,9 +4,9 @@ import "./Services.css";
 import img1 from '../../Images/current/seo-97.png';
 import img2 from '../../Images/current/p11.png';
 import img3 from '../../Images/current/man-5711343_1920-removebg-preview.png'
-import img4 from '../../images/current/e33.png'
-import img5 from '../../images/current/cc.png'
-import img6 from '../../images/current/p3.png'
+import img4 from '../../Images/current/e33.png'
+import img5 from '../../Images/current/cc.png'
+import img6 from '../../Images/current/p3.png'
 import Image from "next/image";
 
 
