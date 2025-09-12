@@ -20,7 +20,7 @@ export const metadata = {
     "SEO services,search engine optimization,professional SEO company,online marketing SEO,SEO agency,expert SEO services,local SEO services,website SEO optimization,increase website traffic,improve search rankings",
   robots: "index, follow",
   alternates: {
-    canonical: "https://oceantechzone.in/seo",
+    canonical: "https://oceantechzone.in/Pages/seo",
   },
   icons: {
     icon: "/meta.ico",     // favicon from your logo

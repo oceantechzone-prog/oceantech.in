@@ -20,7 +20,7 @@ export const metadata = {
     "email marketing,WhatsApp marketing,content marketing,direct marketing services,marketing automation,email and WhatsApp campaigns,online engagement",
   robots: "index, follow",
   alternates: {
-    canonical: "https://oceantechzone.in/Pages/email",
+    canonical: "https://oceantechzone.in/Pages/Email",
   },
   icons: {
     icon: "/meta.ico",     // favicon from your logo

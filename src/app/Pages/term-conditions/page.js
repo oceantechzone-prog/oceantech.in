@@ -17,7 +17,7 @@ export const metadata = {
     "terms and conditions,website terms of service,user agreement,service terms,legal terms,service terms,usage policy,terms of use",
   robots: "index, follow",
   alternates: {
-    canonical: "https://oceantechzone.in/Pages/terms-conditions",
+    canonical: "https://oceantechzone.in/Pages/term-conditions",
   },
   icons: {
     icon: "/meta.ico",     // favicon from your logo

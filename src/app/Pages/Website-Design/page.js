@@ -29,7 +29,7 @@ export const metadata = {
     "website designing,Shopify store development,web design services,professional website design,Shopify website design,SEO-friendly web design,custom website design,business website design",
   robots: "index, follow",
   alternates: {
-    canonical: "https://oceantechzone.in/website-design",
+    canonical: "https://oceantechzone.in/Pages/Website-Design",
   },
   icons: {
     icon: "/meta.ico",     // favicon from your logo
