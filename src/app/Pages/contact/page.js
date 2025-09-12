@@ -34,7 +34,7 @@ export default function ContactUs() {
               feel free to reach out. We are here to help!
             </p>
 
-            {/* <p><FaMapMarkerAlt className="me-2 text-primary" /> F318, OLD MB ROAD, LADO SARAI, NEW DELHI 110030</p> */}
+            <p><FaMapMarkerAlt className="me-2 text-primary" /> F318, OLD MB ROAD, LADO SARAI, NEW DELHI 110030</p>
             <p><FaEnvelope className="me-2 text-primary" /> <a href="mailto:info@oceantechzone.com" className="text-decoration-none text-dark">info@oceantechzone.com</a></p>
             <p><FaPhone className="me-2 text-primary" /> <a href="tel:+919289933499" className="text-decoration-none text-dark">+91 9289933499</a></p>
 
