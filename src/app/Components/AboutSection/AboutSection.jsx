@@ -10,7 +10,7 @@ import Pic5 from "@/app/Images/current/mg.png";
 
 const teamMembers = [
   {
-    name: "Rahul Sharma",
+    name: "Syed Raghib",
     role: "Founder & CEO",
     image: Pic3,
     desc: "Visionary leader with a passion for innovation and digital growth.",
@@ -42,9 +42,9 @@ export default function AboutSection() {
               <div>
 
                 <div className="aboutDetail-sec">
-                  <p className="text-center fw-bold  fontWeb">
+                  <h1 className="text-center fw-bold  fontWeb">
                     OCEAN TECH ZONE SINCE 2017
-                  </p>
+                  </h1>
                   <p className=" paragraph-details">
                     At Ocean Tech Zone, we are more than just a digital
                     marketing agency—we are growth partners for businesses that

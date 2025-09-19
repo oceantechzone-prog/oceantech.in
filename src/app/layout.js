@@ -15,14 +15,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Ocean Tech Zone - Digital Marketing Agency in Delhi, India",
+  title: "Digital Marketing Agency in Delhi, India - Ocean Tech Zone",
   description:
     "Drive traffic, boost conversions, and dominate rankings with our digital marketing agency. Contact us today to elevate your online strategy and grow success.",
   keywords:
     "Digital Marketing Agency,Digital Marketing Agency in Delhi,Digital Marketing Solutions,Search Engine Optimization,website Desiging,Delhi-NCR,SEO Services,PPC Advertising,Social Media Marketing,Content Marketing,Email Marketing,Online Marketing,Digital Strategy,Marketing Solutions",
   robots: "index, follow",
   alternates: {
-    canonical: "https://oceantechzone.in",
+    canonical: "https://oceantechzone.in/",
   },
   icons: {
     icon: "/meta.ico",
@@ -61,9 +61,9 @@ export default function RootLayout({ children }) {
           strategy="afterInteractive"
         />
 
-        {/* Google Analytics */}
+        {/* Google Analytics (New Property) */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-S5ZC74ZVD0"
+          src="https://www.googletagmanager.com/gtag/js?id=G-3G6ZW6D3N7"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -71,16 +71,25 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-S5ZC74ZVD0');
+            gtag('config', 'G-3G6ZW6D3N7');
           `}
         </Script>
 
-        {/* Ahrefs Analytics */}
+        {/* Ahrefs Analytics - raw script tag */}
         <Script
-          src="https://analytics.ahrefs.com/analytics.js"
-          data-key="Umyfbo9vPrMDCRAyXI40zA"
-          async
+          id="ahrefs-analytics"
           strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                var s = document.createElement('script');
+                s.src = "https://analytics.ahrefs.com/analytics.js";
+                s.setAttribute("data-key", "Umyfbo9vPrMDCRAyXI40zA");
+                s.async = true;
+                document.head.appendChild(s);
+              })();
+            `,
+          }}
         />
       </body>
     </html>
