@@ -13,6 +13,7 @@ export default function InquiaryForm() {
   });
 
   const [services] = useState([
+    "Book Your Free Consultation",
     "Search Engine Optimization (SEO)",
     "Social Media Optimization",
     "Website Designing",
