@@ -48,7 +48,7 @@ export const metadata = {
       "Digital Marketing Agency,Digital Marketing Agency in Delhi,Digital Marketing Solutions,Search Engine Optimization,website Desiging,Delhi-NCR,SEO Services,PPC Advertising,Social Media Marketing,Content Marketing,Email Marketing,Online Marketing,Digital Strategy,Marketing Solutions",
    robots: "index, follow",
    alternates: {
-      canonical: "https://oceantechzone.in",
+      canonical: "https://oceantechzone.in/",
    },
    icons: {
       icon: "/meta.ico",     // favicon from your logo
